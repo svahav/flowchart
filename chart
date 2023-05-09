@@ -1,0 +1,69 @@
+Start
+
+  |
+  |--- Request to open a project
+  |       |
+  |       |--- Department manager approves request
+  |       |       |
+  |       |       |--- Division coordinator opens project file
+  |       |               |
+  |       |               |--- Project fields are populated automatically
+  |       |                       |
+  |       |                       |--- Project fields:
+  |       |                               - Project number (generated automatically)
+  |       |                               - Project opening date (created automatically)
+  |       |                               - Project status - active/inactive (automatically becomes active)
+  |       |                               - SA so far
+  |       |                               - Financial situation
+  |       |                               - Project type (licensing, verification, trial, TSO, etc.)
+  |       |                               - Project customer details (name, address, etc.)
+  |       |                               - Company
+  |       |                               - POC on behalf of the project client (name, email, phone, etc.)
+  |       |                               - General description of the project
+  |       |                               - Link to the project opening documents
+  |       |                               - Leading department in the air service division
+  |       |                               - Carrier on behalf of Air Service Division
+  |       |                               - Estimated hours for the project
+  |       |                               - Link to previous certificates TC, STC, TCDS, etc.
+  |       |                               - Associate Production Supervisor
+  |       |                               - A PKA inspector is associated with the project
+  |       |
+  |       |--- Project files are opened
+  |       |       |
+  |       |       |--- Completing documents
+  |       |               |
+  |       |               |--- Various types of documents are completed
+  |       |                       |
+  |       |                       |--- Types of documents:
+  |       |                               - Licensing documents
+  |       |                               - PACP document
+  |       |                               - CCL document
+  |       |                               - DASR document
+  |       |                               - Position Paper document
+  |       |
+  |       |--- Licensing documents are updated
+  |               |
+  |               |--- PACP document
+  |               |       |
+  |               |       |--- The licensing basis is determined
+  |               |       |       |
+  |               |       |       |--- List of regulations is saved in the system
+  |               |       |       |
+  |               |       |       |--- Regulations are associated with each project
+  |               |       |       |
+  |               |       |       |--- Customer marks list of regulations in which they stand
+  |               |       |
+  |               |       |--- CCL document
+  |               |               |
+  |               |               |--- Details are completed if needed
+  |               |
+  |               |--- DASR document
+  |                       |
+  |                       |--- Status is filled
+  |                       |--- Remarks are filled
+  |                       |--- Document name, company, number, version and last update date are filled
+  |                       |--- Form is saved as PDF document in the project documents
+  |                       |--- Form with the attached document is sent to the client through the portal
+  |
+  |--- End
+
